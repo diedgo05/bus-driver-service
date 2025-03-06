@@ -11,7 +11,7 @@ var (
 	mySQL infraestructure.MySQL
 )
 
-func init() {
+func Init() {
 	db, err := core.InitMySQL()
 	if err != nil {
 		return
